@@ -22,11 +22,7 @@ import com.vaadin.ui.VerticalLayout;
 import com.vaadin.ui.renderers.HtmlRenderer;
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.Reader;
-import java.net.URL;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -34,8 +30,6 @@ import org.apache.commons.httpclient.HttpClient;
 import org.apache.commons.httpclient.methods.GetMethod;
 import org.apache.commons.httpclient.methods.PostMethod;
 
-import org.json.JSONArray;
-import org.json.JSONException;
 /**
  * This UI is the application entry point. A UI may either represent a browser window 
  * (or tab) or some part of a html page where a Vaadin application is embedded.
